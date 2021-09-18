@@ -1,6 +1,6 @@
-public class ElectronicProduct extends Product {
+public class FurnitureProduct extends Product {
 
-    public ElectronicProduct(String name) {
+    public FurnitureProduct(String name) {
         super(name);
     }
 }
