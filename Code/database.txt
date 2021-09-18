@@ -1,0 +1,4 @@
+Macbook Pro:2000
+Macbook Air:1500
+iPad:800
+iPhone:500
