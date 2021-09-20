@@ -1,4 +1,4 @@
-public class TestProduct extends Product {
+public class TestProduct extends AbstractFactory {
 
     public TestProduct(String name) {
         super(name);

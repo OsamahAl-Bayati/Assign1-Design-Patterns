@@ -1,14 +1,14 @@
-public abstract class Product {
+public abstract class AbstractFactory {
 
     private String name;
     private double price;
 
-    public Product(String name) {
+    public AbstractFactory(String name) {
         this.name = name;
         this.price = 0;
     }
 
-    public Product(String name, double price) {
+    public AbstractFactory(String name, double price) {
         this.name = name;
         this.price = price;
     }
@@ -27,6 +27,6 @@ public abstract class Product {
 
     @Override
     public String toString() {
-        return "Product " + name + " $" + price;
+        return "AbstractFactory " + name + " $" + price;
     }
 }
