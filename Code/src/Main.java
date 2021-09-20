@@ -6,7 +6,7 @@ class Main {
 
     public static void main(String[] args) {
         try {
-            File database = new File("database.txt");
+            File database = new File ("database.txt");
             Scanner reader = new Scanner(database);
 
             while (reader.hasNextLine()) {
@@ -15,7 +15,7 @@ class Main {
                 String name = data[0];
                 double price = Double.parseDouble(data[1]);
 
-                Product product = ProductFactory.makeProduct(name);
+                AbstractFactory product = ProductFactory.makeProduct(name);
                 product.setPrice(price);
 
                 System.out.println(product.toString());

@@ -1,2 +1,2 @@
-## This is where the example screen shots of java files working will be placed
-Please delete after screen dumps are placed
+![Output](https://i.imgur.com/FVnTc0T.png)
+![Output](https://i.imgur.com/HyDKWND.jpg)
